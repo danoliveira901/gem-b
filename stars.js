@@ -11,6 +11,6 @@ function Ship () {
     }
 
     this.move = function(dir) {
-        this.x += dir*5;
+        this.x += dir*30;
     }
 }

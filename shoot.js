@@ -8,6 +8,6 @@ function Shoot(x, y) {
         circle(this.x,this.y, 18, 18)
     }
      this.move = function() {
-        this.y = this.y -4;
+        this.y = this.y -5;
     }
 }
